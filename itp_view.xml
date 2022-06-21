@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record model="ir.ui.view" id="crm_lead_oppor_tree_itp">
+        <field name="name">crm.lead.oppor.itp</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_case_tree_view_oppor"/>
+	<field name="arch" type="xml">
+		<field name="stage_id" position="after">
+			<field name="date_won" optional="hide"/>
+		</field>
+	</field>
+     </record>
+
+</odoo>
