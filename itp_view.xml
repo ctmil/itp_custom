@@ -8,6 +8,9 @@
 	<field name="arch" type="xml">
 		<field name="stage_id" position="after">
 			<field name="date_won" optional="hide"/>
+			<field name="date_sale_order_confirm" optional="hide"/>
+			<field name="days_in_crm" optional="hide"/>
+			<field name="days_in_sale" optional="hide"/>
 		</field>
 	</field>
      </record>
